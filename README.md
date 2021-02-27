@@ -1,34 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  Renew | NLW#4 
+  <br/>
+  <br/>
+  <a href="https://renew.vercel.app/">Link para o site</a>
+  <a href="https://renew.vercel.app/"><img src="./.github/toReadme/renew.png" /></a>  
+</h1>
+<p align="center">
+  <a href="#page_facing_up-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#clipboard-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#closed_book-instalação">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#man_technologist-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#email-contato">Contato</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-## Getting Started
 
-First, run the development server:
+## :page_facing_up: Descrição
+O Renew é uma aplicação que usa a técnica de Pomodoro, um método de gestão de tempo que consiste na utilização de um cronômetro para dividir o trabalho em períodos de 25 minutos, separados por breves intervalos, ideal para quem passa muito tempo estudando.
+
+## :clipboard: Funcionalidades
+- [x] Inicia um ciclo de 25 minutos.
+<img src="./.github/toReadme/initialAPI.png" />
+
+- [x] Abadornar o ciclo.
+<img src="./.github/toReadme/cicle.png" />
+
+- [x] Dispara um efeito sonoro e uma notificação quando o ciclo é concluído.
+<img src="./.github/toReadme/notification.png" />
+
+- [x] Libera um desafio a cada ciclo concluído.
+<img src="./.github/toReadme/newChallange.png" />
+
+- [x] Gameficação através de um sitema de Level, onde o usuário ganha Experiência(XP) a cada desafio concluído.
+<img src="./.github/toReadme/levelUp.png" />
+
+## :computer: Tecnologias
+As seguintes tecnologias foram usadas na construção do projeto:
+
+- [Next.js](https://nextjs.org/)
+- [React.js](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+
+## :closed_book: Instalação
+
+### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), Além disto é bom ter um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/)
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone este repositório.
+$ git clone https://github.com/mateusntn/renew.git
+
+# Vá para a pasta renew
+$ cd renew
+
+# Instale as dependências
+$ npm install 
+
+# Execute aplicação
+$ npm run dev
+
+# O app vai está rodando na porta 3000 - acesse <http://localhost:3000>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :man_technologist: Autor
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<a href="https://github.com/mateusntn/">
+ <img src="https://github.com/mateusntn.png" width="70px;" alt=""/>
+ <br />
+ <sub><b>Mateus Antonio</b></sub>
+</a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## :email: Contato
 
-## Learn More
+[![Linkedin Badge](https://img.shields.io/badge/-MateusAntonio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mateusantonio-/)](https://www.linkedin.com/in/mateusantonio-/)
 
-To learn more about Next.js, take a look at the following resources:
+[![Gmail Badge](https://img.shields.io/badge/-mateusantoniodev@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:mateusantoniodev@gmail.com)](mailto:mateusantoniodev@gmail.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## :memo: Licença
 
-## Deploy on Vercel
+This project is under the MIT license.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
