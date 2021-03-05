@@ -27,7 +27,7 @@ export default function Home(props: HomeProps) {
     >
       <div className={styles.container}>
         <Head>
-          <title>Início | Renew</title>
+          <title>Renew</title>
         </Head>
         <ExperienceBar />
         <CountdownProvider>
